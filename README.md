@@ -18,3 +18,6 @@ I strongly suggest you modify this Plugin to suit the needs of your site, mainly
 You can also change/add Social media links, or just remove it completely. Look for this part of `inc/functions.php`:
 
 83: `$linkedin_url = get_user_meta($author_id, 'linkedin', true);` You may change this to for example Facebook, Twitter, or add on more (remember to change line `89` if you do this.)
+
+
+This should also integrate with Yoast SEO to add Author Metadata.
